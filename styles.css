@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.quiz-container {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#card-content {
+    font-size: 1.2em;
+}
+
+#city-name, #county-name {
+    margin: 10px 0;
+}
+
+#county-name {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
